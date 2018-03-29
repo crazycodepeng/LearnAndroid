@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accessibility_service_instructions"
+        />
+
+    <ImageButton android:id="@+id/button"
+        android:background="@drawable/ic_settings_applications_purple_100_24dp"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_marginTop="50dip"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

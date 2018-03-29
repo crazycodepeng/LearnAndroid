@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">LearnAndroid</string>
+
+    <!-- ============================ -->
+    <!--  Accessibility examples strings  -->
+    <!-- ============================ -->
+
+    <string name="accessibility_service">Accessibility/Accessibility Service</string>
+    <string name="accessibility_service_label">ClockBack</string>
+    <string name="template_screen_on">Screen on. Volume %1$s percent.</string>
+    <string name="template_screen_off">Screen off. Volume %1$s percent.</string>
+    <string name="accessibility_service_instructions">
+        1. 启用话语提示（设置 - >辅助功能 - >话语提示）.
+        \n\n2. 启用触摸浏览（设置 - >辅助功能 - >触摸浏览）.
+        \n\n3. 触摸时钟应用程序和主屏幕.
+        \n\n4. 转到“时钟”应用程序并更改闹钟的时间.
+        \n\n5. 启用ClockBack（设置 - >辅助功能 - > ClockBack）.
+        \n\n6. 转到时钟应用程序并更改闹钟.
+        \n\n7. 将振铃器设置为振动模式并更改闹钟.
+        \n\n8. 将振铃器设置为静音模式并更改闹钟.
+    </string>
+    <string name="accessibility_custom_view_instructions">
+       1.启用话语提示（设置 - >辅助功能 - >话语提示）.
+    \n\n2. 启用触摸浏览（设置 - >辅助功能 - >触摸浏览）.
+    \n\n3. 触摸浏览/戳动按钮.
+    </string>
+    <string name="accessibility_custom_on">开</string>
+    <string name="accessibility_custom_off">关</string>
+
+    <string name="accessibility_custom_view">Accessibility/Custom View</string>
 </resources>
